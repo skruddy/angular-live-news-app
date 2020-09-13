@@ -28,6 +28,8 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+              "./node_modules/bootstrap/dist/css/bootstrap-grid.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -92,6 +94,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -123,6 +126,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-news"
+    }
+  },
+  "defaultProject": "angular-news",
+  "cli": {
+    "analytics": "021c0704-f164-4e26-82d2-9d2bfb157976"
+  }
 }
